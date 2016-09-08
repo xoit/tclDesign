@@ -1,0 +1,1 @@
+top {attribute {name top bbox {0 0 1100 1200}} block_A {attribute {bbox {0 0 200 130}}} clk_mux {attribute {ref TMUX2D1 name clk_mux input {A B} output Z}}}

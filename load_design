@@ -1,0 +1,3 @@
+proc load_design {db} {
+  mdb::loaddb $db ;
+}
