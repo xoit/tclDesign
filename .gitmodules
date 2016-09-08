@@ -3,7 +3,7 @@
 	url = https://github.com/xoit/mdb.git
 [submodule "lib/scmd"]
 	path = lib/scmd
-	url = https://bithub.com/xoit/scmd.git
+	url = https://github.com/xoit/scmd.git
 [submodule "lib/ccmd"]
 	path = lib/ccmd
 	url = https://github.com/xoit/ccmd.git
