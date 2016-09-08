@@ -1,9 +1,9 @@
 [submodule "lib/mdb"]
 	path = lib/mdb
-	url = http://docpd.marvell.com:3000/lfli/mdb.git
+	url = https://github.com/xoit/mdb.git
 [submodule "lib/scmd"]
 	path = lib/scmd
-	url = http://docpd.marvell.com:3000/lfli/scmd.git
+	url = https://bithub.com/xoit/scmd.git
 [submodule "lib/ccmd"]
 	path = lib/ccmd
-	url = http://docpd.marvell.com:3000/lfli/ccmd.git
+	url = https://github.com/xoit/ccmd.git
