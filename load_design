@@ -1,3 +1,4 @@
+package provide tclDesign 1.0
 proc load_design {{db ""}} {
   global wa ;
   if {[llength $db]==0} {

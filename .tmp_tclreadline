@@ -1,0 +1,10 @@
+lappend auto_path /proj/cadpnr/wa/lfli/local/lib/tclreadline2.1.0
+set auto_path [lsort -u $auto_path]
+package require tclreadline
+namespace eval tclreadline {
+  proc prompt1 {} {
+    return "\nHISTORY:\n[history info 3]\n[file tail [info nameofexecutable]] [history nextid] > "
+  }
+}
+ ::tclreadline::readline add "llf"
+ ::tclreadline::Loop 
