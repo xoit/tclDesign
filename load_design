@@ -1,3 +1,7 @@
-proc load_design {db} {
+proc load_design {{db ""}} {
+  global wa ;
+  if {[llength $db]==0} {
+    set db $wa/data/top.mdb
+  }
   mdb::loaddb $db ;
 }
