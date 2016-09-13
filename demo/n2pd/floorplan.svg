@@ -1,0 +1,85 @@
+<svg id="floorplan" width="750" height="770" xmlns="http://www.w3.org/2000/svg">
+<marker id="markerArrow" viewBox="0 0 10 10" 
+                refX="1" refY="5"
+                markerWidth="6" 
+                markerHeight="6"
+                orient="auto">
+    <path d="M2,2 L2,11 L10,6 L2,2" style="fill: #000000;" />
+</marker>
+<line id="arrow_left" x1="50" y1="235" x2="95" y2="235"  stroke="red" stroke-width="1" marker-end="url(#markerArrow)" />
+<text id="text_left" x="65.0" y="232" fill="red">50</text>
+<line id="arrow_right"  x1="650" y1="235" x2="607" y2="235"  stroke="red" stroke-width="1" marker-end="url(#markerArrow)" />
+<text id="text_right" x="620" y="232" fill="red">50</text>
+<line id="arrow_top"  x1="120" y1="130" x2="120" y2="175"  stroke="red" stroke-width="1" marker-end="url(#markerArrow)" />
+<text id="text_top" x="123" y="160" fill="red">50</text>
+<line id="arrow_bottom"  x1="580" y1="750" x2="580" y2="707"  stroke="red" stroke-width="1" marker-end="url(#markerArrow)" />
+<text id="text_bottom" x="583" y="720" fill="red">50</text>
+<line x1="101" y1="478" x2="101" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="121" y1="478" x2="121" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="141" y1="478" x2="141" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="161" y1="478" x2="161" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="181" y1="478" x2="181" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="201" y1="478" x2="201" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="221" y1="478" x2="221" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="241" y1="478" x2="241" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="130" y1="700" x2="130" y2="180" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="170" y1="700" x2="170" y2="180" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="250" y1="700" x2="250" y2="180" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="290" y1="700" x2="290" y2="180" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="370" y1="700" x2="370" y2="180" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="410" y1="700" x2="410" y2="180" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="490" y1="700" x2="490" y2="180" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="530" y1="700" x2="530" y2="180" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower_v.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="700" x2="599" y2="700" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="700" x2="599" y2="700" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="670" x2="599" y2="670" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="670" x2="599" y2="670" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="640" x2="599" y2="640" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="640" x2="599" y2="640" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="610" x2="599" y2="610" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="610" x2="599" y2="610" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="580" x2="599" y2="580" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="580" x2="599" y2="580" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="550" x2="599" y2="550" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="550" x2="599" y2="550" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="520" x2="599" y2="520" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="520" x2="599" y2="520" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="490" x2="599" y2="490" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="490" x2="599" y2="490" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="460" x2="599" y2="460" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="460" x2="599" y2="460" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="430" x2="599" y2="430" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="430" x2="599" y2="430" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="400" x2="599" y2="400" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="400" x2="599" y2="400" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="370" x2="599" y2="370" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="370" x2="599" y2="370" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="340" x2="599" y2="340" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="340" x2="599" y2="340" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="310" x2="599" y2="310" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="310" x2="599" y2="310" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="280" x2="599" y2="280" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="280" x2="599" y2="280" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="250" x2="599" y2="250" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="250" x2="599" y2="250" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="red" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<line x1="101" y1="220" x2="599" y2="220" style="stroke:rgb(0,255,0);stroke-width:2;"></line>
+<line x1="101" y1="220" x2="599" y2="220" style="stroke:white;stroke-width:6;stroke-dasharray='2 2'"><set attributeName="stroke" to="grey" begin="showpower.click"/><set attributeName="stroke" to="white" begin="hidepower.click"/></line>
+<rect id="ip1" x="101" y="479" width="140" height="220" style="fill:none;stroke-width:1;stroke:rgb(0,0,0);"><set attributeName="fill" to="blue" begin="hidepower.click" end="showpower.click"/></rect>
+<rect id="ip1" x="261" y="519" width="120" height="180" style="fill:none;stroke-width:1;stroke:rgb(0,0,0);"><set attributeName="fill" to="blue" begin="hidepower.click" end="showpower.click"/></rect>
+<rect id="die" x="50" y="130" width="600" height="620" style="fill:none;stroke-width:1;stroke:rgb(0,0,0);" />
+<text id="origin" x="35" y="765">(0,0)</text>
+<rect id="core" x="100" y="180" width="500" height="520" style="fill:none;stroke-width:1;stroke:rgb(0,0,0);" />
+<rect id="showpower" x="20" y="20" width="25" height="25" rx="5" ry="5" style="fill:lightgrey"/><text x="48" y="36" >show pg strap</text>
+<rect id="hidepower" x="20" y="50" width="25" height="25" rx="5" ry="5" style="fill:lightgrey"/><text x="48" y="66" >hide pg strap</text>
+<rect id="showpower_v" x="220" y="20" width="25" height="25" rx="5" ry="5" style="fill:lightgrey"/><text x="248" y="36" >show vertical pg strap</text>
+<rect x="60" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="80" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="100" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="120" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="140" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="160" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="180" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="200" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="220" y="725" width="10" height="25" style="fill:yellow;" />
+<rect x="240" y="725" width="10" height="25" style="fill:yellow;" />
+</svg>
